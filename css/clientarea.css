@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f3f3f3;
+    scroll-behavior: smooth;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+:root {
+    --p-color: rgb(222, 222, 222);
+}
+
+button {
+    border: none;
+}
+
+header {
+    position: relative;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: rgb(17 26 43);
+    z-index: 5;
+    z-index: 5000;
+    overflow: hidden;
+}
+
+.clientarea {
+    min-width: 500px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 510px) {
+    .clientarea {
+        min-width: 300px;
+    }
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo img {
+    transition: 1s;
+    cursor: pointer;
+    width: 125px;
+}
+
+.head p {
+    font-size: 20px;
+    color: rgb(52, 111, 199);
+}
+
+.head i {
+    color: rgb(149, 154, 184);
+}
+
+.login span {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login p span:first-of-type:hover {
+    color: rgb(130, 166, 221) !important;
+}
+
+.login p span:last-of-type:hover {
+    color: rgb(119, 132, 151) !important;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 14px 0px 14px 20px;
+}
+
+form input:focus {
+    border: none;
+    outline: 2px solid rgb(35, 104, 207);
+    caret-color: cadetblue;
+}
+
+form label {
+    color: rgb(58, 95, 150);
+}
+
+.register {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.active {
+    display: flex;
+}
+
+.forget {
+    display: none;
+}
+
+form .form-submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-submit a {
+    text-decoration: none;
+    color: rgb(72, 88, 112);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.form-submit a:hover {
+    text-decoration: underline;
+}
+
+form input[type="submit"] {
+    width: 120px;
+    border-radius: 20px;
+    padding: 13px 20px;
+    margin: 0;
+    background-color: rgb(58, 69, 82);
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    outline: none;
+    background-color: rgb(43, 50, 59);
+}

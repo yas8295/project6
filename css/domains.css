@@ -1,0 +1,113 @@
+body {
+    background-color: white !important;
+    scroll-behavior: smooth;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+header {
+    position: relative;
+    max-width: 100%;
+    min-height: 35vh;
+    background-color: #5993f9;
+    z-index: 5;
+    z-index: 5000;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.active-page {
+    border-bottom: 3px solid #ffc600;
+}
+
+.active-page::after {
+    content: "";
+    display: none;
+}
+
+.main {
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.top .image {
+    border-radius: 50%;
+    background-color: #ffc600;
+    padding: 10px 15px;
+}
+
+.top .image img {
+    width: 50px;
+}
+
+.search {
+    padding: 70px 20px;
+    background-color: #23395f;
+    overflow: hidden;
+    background-image: none !important;
+}
+
+.search-content {
+    justify-content: center;
+}
+
+.search-content input {
+    box-shadow: none !important;
+}
+
+.search-content input::placeholder {
+    color: #335faa;
+}
+
+.table {
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.table table {
+    background-color: #fcfcfd;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table table tr:nth-child(even) {
+    background-color: #f6f6f9;
+}
+
+.table table th {
+    padding: 30px;
+    color: #3e5c94;
+}
+
+.table table td {
+    width: 250px;
+    color: rgb(151, 151, 151);
+}
+
+.table table td:not(:last-child) {
+    border-right: 1px solid rgb(197, 197, 197);
+    padding: 30px;
+}
+
+.table table tr:nth-child(2) {
+    border-top: 1px solid rgb(197, 197, 197);
+}
+
+.table table button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #3d5e98;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}

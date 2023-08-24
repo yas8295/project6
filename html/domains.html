@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/mainPage.css" />
+    <link rel="stylesheet" href="../css/domains.css" />
+    <style>
+        header .nav .links a::after {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background-color: #ffc600;
+            transition: 0.5s;
+        }
+
+        header .nav .links .drop>a::after,
+        header .nav .links a:nth-child(5)::after {
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="light">
+        <div class="container-lg">
+            <div class="nav">
+                <div class="logo"><img src="../images/logo.svg" alt=""></div>
+                <div class="links">
+                    <a href="../index.html" class="mode-button light color">Home</a>
+                    <div class="drop">
+                        <a class="color ">Hosting Services</a>
+                        <div class="drop-menu">
+                            <div class="drop-content">
+                                <a href="#webhosting"><img src="../source/Hustbee_files/server1.svg" alt=""> Web
+                                    Hosting</a>
+                                <a href="#webhosting"><img src="../source/Hustbee_files/server2.svg" alt="">Cloud
+                                    Hosting</a>
+                                <a href="#webhosting"><img src="../source/Hustbee_files/server3.svg" alt="">VPS
+                                    Hosting</a>
+                            </div>
+                            <div class="drop-content">
+                                <a href="#webhosting"><img src="../source/Hustbee_files/server4.svg" alt="">Wordpress
+                                    Hosting</a>
+                                <a href="#webhosting"><img src="../source/Hustbee_files/server5.svg" alt="">Dedicated
+                                    Hosting</a>
+                                <a href="domains.html"><img src="../source/Hustbee_files/server6.svg" alt="">Domain
+                                    Names</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="active-page color" href="domains.html">Domains</a>
+                    <a class="color" href="#supports">Supports</a>
+                    <div class="drop">
+                        <a class="color">Pages</a>
+                        <div class="drop-menu " style="width: 200px;">
+                            <div class="drop-content">
+                                <a href="#about">About</a>
+                                <a href="#blog">Blog</a>
+                                <a href="#privacy">Privacy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-area">
+                    <div class="client-button">
+                        <a href="clientarea.html"><i class="fa-regular fa-circle-user"></i> Client Area</a>
+                        <p class="light"><i class="fa-solid fa-arrow-right-long" style="color: rgb(0, 119, 255);"></i>
+                            Chat
+                            Available</p>
+                    </div>
+                    <i class="fa-solid fa-comments" style="color: #d5d5d5;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="shape light"><i class="fa-solid fa-bars"></i></div>
+        <div class="nav-menu">
+            <div class="links">
+                <a href="../index.html" class="">Home</a>
+                <div class="drop">
+                    <a class="color " style="opacity: 0.7;">Hosting Services</a>
+                    <div class="drop-menu">
+                        <div class="drop-content">
+                            <a href="#webhosting"><img src="../source/Hustbee_files/server1.svg" alt=""> Web Hosting</a>
+                            <a href="#webhosting"><img src="../source/Hustbee_files/server2.svg" alt="">Cloud
+                                Hosting</a>
+                            <a href="#webhosting" style="margin-bottom: 25px;"><img
+                                    src="../source/Hustbee_files/server3.svg" alt="">VPS Hosting</a>
+                        </div>
+                        <div class="drop-content">
+                            <a href="#webhosting"><img src="../source/Hustbee_files/server4.svg" alt="">Wordpress
+                                Hosting</a>
+                            <a href="#webhosting"><img src="../source/Hustbee_files/server5.svg" alt="">Dedicated
+                                Hosting</a>
+                            <a href="#domains" style="margin-bottom: 0;"><img src="../source/Hustbee_files/server6.svg"
+                                    alt="">Domain Names</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="color" href="#domains">Domains</a>
+                <a class="color" href="#supports">Supports</a>
+                <div class="drop">
+                    <a class="color" style="opacity: 0.7;">Pages</a>
+                    <div class="drop-menu">
+                        <div class="drop-content">
+                            <a href="#about">About</a>
+                            <a href="#blog">Blog</a>
+                            <a href="#privacy" style="margin-bottom: 0;">Privacy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="top">
+                <div class="image"><img src="../source/Hustbee_files/server6.svg" alt=""></div>
+                <h2>Domain names</h2>
+            </div>
+            <p style="font-size: 20px;">Search a domain of your choise. Get your website up and running
+            </p>
+        </div>
+    </header>
+    <section class="search">
+        <div class="container-lg">
+            <div class="search-content">
+                <input type="text" placeholder="Domain name" style="border: none;
+                        cursor: pointer;
+                        padding: 15px 100px 15px 35px;
+                        border-radius: 40px;
+                        font-size: 20px;
+                        font-weight: 600;
+                        background-color: white;
+                        transition: 0.5s;
+                        outline: none; flex-basis: 60%;
+                        ">
+                <button style="cursor: pointer;
+                        width: 200px;
+                        color: white;
+                        padding: 15px 30px 15px;
+                        border-radius: 40px;
+                        font-size: 20px;
+                        font-weight: 600;
+                        background-color: #5993f9;
+                        transition: 0.5s;">Search now</button>
+            </div>
+        </div>
+    </section>
+    <div class="container-lg" style="padding: 50px;">
+        <div class="row">
+            <img class="col-sm-12" src="../images/tlds.jpg" alt="">
+        </div>
+    </div>
+    <h1 style="text-align: center; color: rgb(48, 58, 70); margin-bottom: 60px; margin-top: 0;">Best domain prices
+        you’ll ever get.
+    </h1>
+    <div class="container-lg">
+        <div style="overflow-x: auto; width: 100%;" class="table">
+            <table>
+                <tr>
+                    <th>DOMAIN</th>
+                    <th>REGISTRATION</th>
+                    <th>TRANSFER</th>
+                    <th>DNS MANAGE</th>
+                    <th>WHOIS PRIVACY</th>
+                    <th>ORDER</th>
+                </tr>
+                <tr>
+                    <td>.COM</td>
+                    <td>$9.99</td>
+                    <td>$9.99</td>
+                    <td>FREE</td>
+                    <td>$9.99</td>
+                    <td><button>REGISTER</button></td>
+                </tr>
+                <tr>
+                    <td>.NET</td>
+                    <td>$9.99</td>
+                    <td>$9.99</td>
+                    <td>FREE</td>
+                    <td>$9.99</td>
+                    <td><button>REGISTER</button></td>
+                </tr>
+                <tr>
+                    <td>.ORG</td>
+                    <td>$9.99</td>
+                    <td>$9.99</td>
+                    <td>FREE</td>
+                    <td>$9.99</td>
+                    <td><button>REGISTER</button></td>
+                </tr>
+                <tr>
+                    <td>.EU</td>
+                    <td>$10.39</td>
+                    <td>$10.39</td>
+                    <td>FREE</td>
+                    <td>$10.39</td>
+                    <td><button>REGISTER</button></td>
+                </tr>
+                <tr>
+                    <td>.CLUB</td>
+                    <td>$10.39</td>
+                    <td>$10.39</td>
+                    <td>FREE</td>
+                    <td>$10.39</td>
+                    <td><button>REGISTER</button></td>
+                </tr>
+                <tr>
+                    <td>.XYZ</td>
+                    <td>$10.39</td>
+                    <td>$10.39</td>
+                    <td>FREE</td>
+                    <td>$10.39</td>
+                    <td><button>REGISTER</button></td>
+                </tr>
+                <tr>
+                    <td>.AREO</td>
+                    <td>$38.99</td>
+                    <td>$38.99</td>
+                    <td>FREE</td>
+                    <td>$38.99</td>
+                    <td><button>REGISTER</button></td>
+                </tr>
+                <tr>
+                    <td>.CARE</td>
+                    <td>$38.99</td>
+                    <td>$38.99</td>
+                    <td>FREE</td>
+                    <td>$38.99</td>
+                    <td><button>REGISTER</button></td>
+                </tr>
+                <tr>
+                    <td>.TV</td>
+                    <td>$38.99</td>
+                    <td>$38.99</td>
+                    <td>FREE</td>
+                    <td>$38.99</td>
+                    <td><button>REGISTER</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <h1 style="text-align: center; color: rgb(48, 58, 70); margin-bottom: 70px; margin-top: 70px;">FREE with every
+        domain
+    </h1>
+    <script src="../js/header.js"></script>
+</body>
+
+</html>
