@@ -1,0 +1,235 @@
+body {
+  background-color: white !important;
+  scroll-behavior: smooth;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  max-width: 100%;
+  min-height: 50vh;
+  background-color: #111a2b;
+  z-index: 5;
+  z-index: 5000;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.active-page {
+  border-bottom: 3px solid #ffc600;
+}
+
+.active-page::after {
+  content: "";
+  display: none;
+}
+
+.main {
+  text-align: center;
+  color: white;
+  padding: 70px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.top .image {
+  border-radius: 50%;
+  background-color: #5993fa;
+  padding: 10px 15px;
+  transition: 2s;
+  opacity: 0;
+  scale: 0;
+}
+
+.top .image img {
+  width: 50px;
+}
+
+header .checkbox {
+  display: none;
+  appearance: none;
+}
+
+header .toggle {
+  transition: 0.5s;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  padding: 7px 20px;
+  border-radius: 15px;
+  background-color: white;
+  background-color: #ffc600;
+  cursor: pointer;
+}
+
+header .toggle:before {
+  position: absolute;
+  content: "";
+  left: 0%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  padding: 8px;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.5s;
+}
+
+header .checkbox:checked + .toggle::before {
+  position: absolute;
+  content: "";
+  left: 100% !important;
+  top: 50% !important;
+  transform: translate(-100%, -50%) !important;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.check {
+  transition: 0.5s;
+}
+
+.check.active {
+  color: #ffc600 !important;
+}
+
+.plan-box {
+  position: relative;
+  box-shadow: 0px 0px 0px 3px rgb(69, 145, 243);
+  border-radius: 10px;
+  transition: all 1s ease;
+  line-height: 2;
+  top: -120px;
+  z-index: 7000;
+  background-color: white;
+  margin: 30px 0px;
+  scale: 0;
+}
+
+.plan-box:hover {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  border: none;
+  box-shadow: 0px 0px 0px 3px #ffc600;
+  margin: 10px 0px;
+}
+
+.plan-box button {
+  padding: 12px 0px;
+  border-radius: 20px;
+  background-color: rgb(69, 145, 243);
+  color: white;
+  margin: 10px 0px 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.plan-box button:hover {
+  background-color: rgb(4, 95, 214);
+}
+
+.plan .plan-box .p i {
+  color: #ffc600;
+  transition: 0.5s;
+}
+
+.plan .plan-box .p {
+  transition: 0.5s;
+}
+
+.plan .plan-box .p:hover {
+  background-color: rgb(230, 230, 230);
+  box-shadow: 0px 0px 0px 1px rgb(168, 168, 168);
+  border-radius: 5px;
+}
+
+.plan .plan-box .p:hover i {
+  color: black;
+}
+
+.plan .plan-box .p p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.plan .plan-box h2 {
+  transition: 0.5s;
+}
+
+.hosting-box .hosting-text {
+  padding: 0px 0px 0px 20px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  transition: 2s;
+  translate: 0px 100px;
+  opacity: 0;
+}
+
+.hosting-box .image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/cloud-bg-sm.png);
+  background-size: contain;
+  padding: 50px;
+  background-position: center center;
+  transition: 2s;
+  scale: 0;
+  translate: 0 !important;
+  opacity: 0;
+}
+
+.search {
+  padding: 0px !important;
+  background-color: #5994fa;
+  overflow: hidden;
+  background-image: url(../images/Picture1.svg);
+  background-size: 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat !important;
+}
+
+.right {
+  transition: 2s;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
+.left input {
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+.left button {
+  color: white;
+  font-weight: 500;
+  padding: 15px;
+  background-color: #1a4286;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}

@@ -2,7 +2,6 @@ let slide = document.querySelectorAll("header .header-content")
 let slideBtn = document.querySelectorAll(".main-slide ul li")
 let btnMode = document.querySelector(".mode-button")
 let btnMode2 = document.querySelector(".mode-button2")
-console.log(btnMode2)
 let logo = document.querySelector("header .logo img")
 let links = document.querySelectorAll("header .nav .links a")
 let linksAfter = document.styleSheets[5]
@@ -44,6 +43,7 @@ let opj = new IntersectionObserver(function (enrties, observer) {
         nav.style.padding = "20px 40px"
         nav.style.justifyContent = "space-between"
         nav.style.backgroundColor = "rgb(17 26 43 / 92%)"
+        btnMode.style.display = "none"
         btnMode2.style.display = "none"
     }
     else if (!entry.isIntersecting && !btnMode.classList.contains("light")) {
@@ -56,8 +56,9 @@ let opj = new IntersectionObserver(function (enrties, observer) {
         nav.style.left = "0"
         nav.style.top = "0"
         nav.style.padding = "20px 40px"
-        nav.style.justifyContent = "flex-start"
+        nav.style.justifyContent = "space-between"
         nav.style.backgroundColor = "white"
+        btnMode.style.display = "none"
         btnMode2.style.display = "none"
     }
     else {
@@ -72,6 +73,7 @@ let opj = new IntersectionObserver(function (enrties, observer) {
         nav.style.padding = "0px"
         nav.style.justifyContent = "space-between"
         nav.style.backgroundColor = "transparent"
+        btnMode.style.display = "block"
         btnMode2.style.display = "block"
     }
 

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/mainPage.css" />
+    <link rel="stylesheet" href="../css/support.css" />
+    <style>
+        header .nav .links a::after {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background-color: #ffc600;
+            transition: 0.5s;
+        }
+
+        header .nav .links .drop>a::after,
+        header .nav .links a:nth-child(5)::after {
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="light">
+        <div class="container-lg">
+            <div class="nav">
+                <div class="logo"><img src="../images/logo.svg" alt=""></div>
+                <div class="links">
+                    <a href="../index.html" class="mode-button light color">Home</a>
+                    <div class="drop">
+                        <a class="color ">Hosting Services</a>
+                        <div class="drop-menu">
+                            <div class="drop-content">
+                                <a href="webhosting.html"><img src="../source/Hustbee_files/server1.svg" alt=""> Web
+                                    Hosting</a>
+                                <a href="#webhosting"><img src="../source/Hustbee_files/server2.svg" alt="">Cloud
+                                    Hosting</a>
+                                <a href="#webhosting"><img src="../source/Hustbee_files/server3.svg" alt="">VPS
+                                    Hosting</a>
+                            </div>
+                            <div class="drop-content">
+                                <a href="#webhosting"><img src="../source/Hustbee_files/server4.svg" alt="">Wordpress
+                                    Hosting</a>
+                                <a href="#webhosting"><img src="../source/Hustbee_files/server5.svg" alt="">Dedicated
+                                    Hosting</a>
+                                <a href="domains.html"><img src="../source/Hustbee_files/server6.svg" alt="">Domain
+                                    Names</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="color" href="domains.html">Domains</a>
+                    <a class="color active-page" href="support.html">Supports</a>
+                    <div class="drop">
+                        <a class="color">Pages</a>
+                        <div class="drop-menu " style="width: 200px;">
+                            <div class="drop-content">
+                                <a href="#about">About</a>
+                                <a href="#blog">Blog</a>
+                                <a href="#privacy">Privacy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-area">
+                    <div class="client-button">
+                        <a href="clientarea.html"><i class="fa-regular fa-circle-user"></i> Client Area</a>
+                        <p class="light"><i class="fa-solid fa-arrow-right-long" style="color: rgb(0, 119, 255);"></i>
+                            Chat
+                            Available</p>
+                    </div>
+                    <i class="fa-solid fa-comments" style="color: #d5d5d5;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="shape light"><i class="fa-solid fa-bars"></i></div>
+        <div class="nav-menu">
+            <div class="links">
+                <a href="../index.html" class="">Home</a>
+                <div class="drop">
+                    <a class="color " style="opacity: 0.7;">Hosting Services</a>
+                    <div class="drop-menu">
+                        <div class="drop-content">
+                            <a href="webhosting.html"><img src="../source/Hustbee_files/server1.svg" alt=""> Web Hosting</a>
+                            <a href="#webhosting"><img src="../source/Hustbee_files/server2.svg" alt="">Cloud
+                                Hosting</a>
+                            <a href="#webhosting" style="margin-bottom: 25px;"><img
+                                    src="../source/Hustbee_files/server3.svg" alt="">VPS Hosting</a>
+                        </div>
+                        <div class="drop-content">
+                            <a href="#webhosting"><img src="../source/Hustbee_files/server4.svg" alt="">Wordpress
+                                Hosting</a>
+                            <a href="#webhosting"><img src="../source/Hustbee_files/server5.svg" alt="">Dedicated
+                                Hosting</a>
+                            <a href="#domains" style="margin-bottom: 0;"><img src="../source/Hustbee_files/server6.svg"
+                                    alt="">Domain Names</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="color" href="#domains">Domains</a>
+                <a class="color" href="support.html">Supports</a>
+                <div class="drop">
+                    <a class="color" style="opacity: 0.7;">Pages</a>
+                    <div class="drop-menu">
+                        <div class="drop-content">
+                            <a href="#about">About</a>
+                            <a href="#blog">Blog</a>
+                            <a href="#privacy" style="margin-bottom: 0;">Privacy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="top">
+                <h2>Contact us / Support
+                </h2>
+            </div>
+            <p style="font-size: 20px;">Search a domain of your choise. Get your website up and running
+            </p>
+        </div>
+    </header>
+    <div class="support_contact">
+        <div class="row g-0">
+        <form class="d-flex justify-content-center col-12" action="">
+            <input class="" type="text" placeholder="Search a question">
+            <div class="input_icon">
+            <i class="fa-solid fa-magnifying-glass" style="color: #6882b1;"></i>
+            </div>
+        </form>
+        </div>
+        <div class="container-lg ps-lg-5 py-5">
+            <div class="contact_content row ps-lg-5 py-4">
+                <div class="contact_box  d-flex flex-row gap-4 flex-lg-column align-items-center align-items-md-start col-12 col-md-6 col-lg-3 p-3">
+                    <div class="icon scale align-self-center align-self-md-start"><i class="fa-solid fa-user" style="color: #7e7f81;"></i></div>
+                    <div class="text">
+                        <h2 style="color: white; margin-bottom: 10px;">Client area
+                        </h2>
+                        <p>Login</p>
+                        <p>Submit a ticket</p>
+                    </div>
+                </div>
+                <div class="contact_box  d-flex flex-row gap-4 flex-lg-column align-items-center align-items-md-start col-12 col-md-6 col-lg-3 p-3">
+                    <div class="icon scale align-self-center align-self-md-start"><i class="fa-solid fa-comments" style="color: #079739;"></i></div>
+                    <div class="text">
+                        <h2 style="color: white; margin-bottom: 10px;">Call or Chat
+                        </h2>
+                        <p>Tel: +(973) 17 880038</p>
+                        <p>Start chatting now</p>
+                    </div>
+                </div>
+                <div class="contact_box  d-flex flex-row gap-4 flex-lg-column align-items-center align-items-md-start col-12 col-md-6 col-lg-3 p-3">
+                    <div class="icon scale align-self-center align-self-md-start"><i class="fa-solid fa-envelope-open-text" style="color: #0070d1;"></i></div>
+                    <div class="text">
+                        <h2 style="color: white; margin-bottom: 10px;">Send e-mail
+                        </h2>
+                        <p>support@hustbee.co</p>
+                        <p>admin@hustbee.co</p>
+                    </div>
+                </div>
+                <div class="contact_box  d-flex flex-row gap-4 flex-lg-column align-items-center align-items-md-start col-12 col-md-6 col-lg-3 p-3">
+                    <div class="icon scale align-self-center align-self-md-start"><i class="fa-solid fa-location-dot" style="color: #a93774;"></i></div>
+                    <div class="text">
+                        <h2 style="color: white; margin-bottom: 10px;">Visit us
+                        </h2>
+                        <p>support@hustbee.co</p>
+                        <p>admin@hustbee.co</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-lg p-4">
+    <div class="common_questions d-flex justify-content-center flex-column align-items-center">
+        <h2 class="my-5" style="color: rgb(60, 100, 148);">Common questions about Hustbee & Hosting services.
+</h2>
+<div class="common_questions-box col-12">
+    <h2 class="mb-2 active ">Can i use a prepaid debit card every month for a website of mine? <i class="fa-solid fa-angle-up"></i></h2>
+    <p class="active mb-2" style="line-height: 1.7;">Lorem ipsum dolor sit amet, consectetur adi piscing elit. Sed eget turpis pulvinar tempor odio sed, adipiscing dolor.
+    Donec nisi velit, malesuada id dolor non, elementum auctor arcu. Cras consectetur sapien et purus posuere, ac hendrerit
+    nunc luctus.
+</p>
+</div>
+<div class="common_questions-box col-12">
+    <h2 class="mb-2">i cannot get my package cancelled <i class="fa-solid fa-angle-up"></i></h2>
+    <p class="mb-2" style="line-height: 1.7; ">Lorem ipsum dolor sit amet, consectetur adi piscing elit. Sed eget turpis pulvinar tempor odio sed, adipiscing dolor.
+    Donec nisi velit, malesuada id dolor non, elementum auctor arcu. Cras consectetur sapien et purus posuere, ac hendrerit
+    nunc luctus.
+</p>
+</div>
+<div class="common_questions-box col-12">
+    <h2 class="mb-2">How to add excisting domain to my account?  <i class="fa-solid fa-angle-up"></i></h2>
+    <p class="mb-2" style="line-height: 1.7; ">Lorem ipsum dolor sit amet, consectetur adi piscing elit. Sed eget turpis pulvinar tempor odio sed, adipiscing dolor.
+    Donec nisi velit, malesuada id dolor non, elementum auctor arcu. Cras consectetur sapien et purus posuere, ac hendrerit
+    nunc luctus.
+</p>
+</div>
+<div class="common_questions-box col-12">
+    <h2 class="mb-2">Comparision shared v. reseller v. dedicated <i class="fa-solid fa-angle-up"></i></h2>
+    <p class="mb-2" style="line-height: 1.7; ">Lorem ipsum dolor sit amet, consectetur adi piscing elit. Sed eget turpis pulvinar tempor odio sed, adipiscing dolor.
+    Donec nisi velit, malesuada id dolor non, elementum auctor arcu. Cras consectetur sapien et purus posuere, ac hendrerit
+    nunc luctus.
+</p>
+</div>
+    </div>
+    </div>
+    <hr class="my-5">
+    <div class="container-lg p-4">
+    <h2 class="mb-5" style="color: rgb(60, 100, 148); text-align: center;">or Full out the Contact form to contact us
+    </h2>
+    <div class="contact_form row">
+        <form class="col-12 col-lg-8 row" action="">
+            <div class="col-lg-6 col-12 mb-4">
+            <label for="">Name</label>
+            <br><br>   
+            <input style="width: 100%;" type="text">
+            </div>
+            <div class="col-lg-6 col-12 mb-4">
+            <label for="">Email</label>
+            <br><br>   
+            <input style="width: 100%;" type="text">
+            </div>
+            <div class="col-12 mb-4">
+            <label for="">Subject</label>
+            <br><br>   
+            <select style="width: 100%;" type="">
+            </select>
+            </div>
+            <div class="col-12 mb-4">
+            <label for="">Your message</label>
+            <br><br>   
+            <textarea name="" id="" cols="30" rows="10" style="resize: none; width: 100%;"></textarea>
+            </div>
+            <div style="text-align: right;"><button>Send</button></div>
+        </form>
+        <div class="office col-lg-4 px-lg-5">
+            <p>Office Locations</p>
+            <br><br>
+            <p style="color: #0070d1; margin-bottom: 10px;">Osio</p>
+            <p style="line-height: 1.5; margin-bottom: 15px; color: rgb(155, 155, 155); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Oslo, Norway
+Road 398, Center, Office 38, floor 3
+Contact number: 0901</p>
+            <p style="color: #0070d1; margin-bottom: 10px;">Support</p>
+            <p style="line-height: 1.5; margin-bottom: 15px; color: rgb(155, 155, 155); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">At vero eos et accusamus et iusto odio
+dignissimos ducimus qui blanditiis.
+praesentium voluptatum deleniti llitia animi.
+</p>
+            <p style="color: #0070d1; margin-bottom: 10px;">Customer Service</p>
+            <p style="line-height: 1.5; margin-bottom: 15px; color: rgb(155, 155, 155); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">At vero eos et accusamus et iusto odio
+ dignissimos ducimus qui blanditiis.
+praesentium voluptatum deleniti llitia
+animi, inquiries@hustbee.io.co
+</p>
+        </div>
+    </div>
+    </div>
+    <section class="support">
+        <div class="container-lg">
+            <div class="support-center">
+                <div class="support-box">
+                    <div class="image"><img src="../source/Hustbee_files/info.svg" alt=""></div>
+                    <div class="text">
+                        <h3>Let’s talk <i class="fa-solid fa-arrow-right-long"></i></h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem ccusantium.
+                        </p>
+                    </div>
+                </div>
+                <div class="support-box">
+                    <div class="image"><img src="../source/Hustbee_files/chat.svg" alt=""></div>
+                    <div class="text">
+                        <h3>Go to support center <i class="fa-solid fa-arrow-right-long"></i></h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem ccusantium.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="scroll-top"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i></div>
+        <div class="container-lg">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <div>
+                        <h2>Company</h2>
+                        <a href="#about">Aboout us</a>
+                        <a href="#blog">Press & Media</a>
+                        <a href="#blog">News & Blog</a>
+                        <a href="#contact">Contact us</a>
+                        <a href="">Careers</a>
+                    </div>
+                    <div>
+                        <h2>Hosting</h2>
+                        <a href="webhosting.html">Web Hosting</a>
+                        <a href="#wordpress">Wordpress Hosting</a>
+                        <a href="#cloudHosting">Cloud Hosting</a>
+                        <a href="#vpsHosting">VPS Hosting</a>
+                        <a href="#dedicated">Dedicated Hosting</a>
+                    </div>
+                    <div>
+                        <h2>Domains
+                        </h2>
+                        <a href="html/domains.html">Register Domains</a>
+                        <a href="html/domains.html">Transfer Domains</a>
+                        <a href="html/domains.html">Manage Domains</a>
+                    </div>
+                    <div>
+                        <h2>Support
+                        </h2>
+                        <a href="html/clientarea.html">Client area</a>
+                        <a href="#">Tutorials</a>
+                        <a href="#">Documentation</a>
+                        <a href="#">Forums</a>
+                    </div>
+                </div>
+                <div class="contact-us">
+                    <div>
+                        <h2>Contact us
+                        </h2>
+                        <div class="social" style="display: flex; gap: 35px;">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <p>Tel: +(973) 17 880038
+                        </p>
+                        <a href="#">Chatting service</a>
+                        <a href="#">Submit a ticket</a>
+                        <a href="#">Our location</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright" style="display: flex; justify-content: space-between; margin-top: 30px;">
+                <div class="links">
+                    <a href="">Sitemap</a>
+                    <a href="">Terms of Service</a>
+                    <a href="#privacy">Privacy Policy</a>
+                </div>
+                <p>© Copyright 2018 Hustbee Hosting LLC, All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/support.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/header.js"></script>
+</body>
