@@ -1,0 +1,55 @@
+body {
+  background-color: white !important;
+  scroll-behavior: smooth;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  max-width: 100%;
+  min-height: 40vh;
+  background-color: #111a2b;
+  z-index: 5;
+  z-index: 5000;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.main {
+  text-align: center;
+  color: white;
+  padding: 70px;
+}
+
+.top {
+  margin-bottom: 20px;
+}
+
+.services__ a {
+  text-decoration: none;
+  border: 1px solid #4671b3;
+  border-radius: 15px;
+  transition: 1s;
+}
+
+.services__ a:hover {
+  background-color: rgb(58, 66, 82);
+}
+.services__ a:hover .image {
+  background-color: rgb(104, 107, 112) !important;
+}
+.services__ a:hover h1 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.image {
+  transition: 1s;
+  width: fit-content;
+  padding: 15px;
+  background-color: rgb(228, 231, 249);
+  border-radius: 50%;
+}
+
+.image img {
+  width: 70px;
+}
