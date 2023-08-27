@@ -175,12 +175,7 @@ header .nav .client-area i:nth-child(2):hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 115px);
-}
-
-@media (max-width: 960px) {
-  .header-content-box {
-    height: 100vh;
-  }
+  height: 820px;
 }
 
 .header-content:nth-of-type(1) {
@@ -467,7 +462,7 @@ header .nav .client-area i:nth-child(2):hover {
 .shape {
   position: absolute;
   right: 50px;
-  top: 25px;
+  top: 18px;
   color: white;
   cursor: pointer;
   font-size: 35px;
