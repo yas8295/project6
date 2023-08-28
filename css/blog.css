@@ -1,0 +1,56 @@
+body {
+  background-color: white !important;
+  scroll-behavior: smooth;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  max-width: 100%;
+  min-height: 40vh;
+  background-color: #111a2b;
+  z-index: 5;
+  z-index: 5000;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.main {
+  text-align: center;
+  color: white;
+  padding: 70px;
+}
+
+.top {
+  margin-bottom: 20px;
+}
+
+.blog_ button {
+  margin: 20px 0px 60px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background-color: #186bc9;
+  color: white;
+  font-size: 18px;
+}
+
+ul {
+  margin: 30px 0px 50px;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+ul li {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 15px;
+  background-color: rgb(226, 226, 226);
+  padding: 9px 15px;
+  color: gray;
+}
+
+ul li:nth-child(2) {
+  background-color: rgb(255, 179, 0);
+}

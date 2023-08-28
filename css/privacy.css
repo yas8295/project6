@@ -1,0 +1,30 @@
+body {
+  background-color: white !important;
+  scroll-behavior: smooth;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  max-width: 100%;
+  min-height: 40vh;
+  background-color: rgb(131 142 162);
+  z-index: 5;
+  z-index: 5000;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.main {
+  text-align: center;
+  color: white;
+  padding: 70px;
+}
+
+.top {
+  margin-bottom: 20px;
+}
+
+p {
+  color: gray;
+}

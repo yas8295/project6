@@ -1,492 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/all.min.css" />
-    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="../css/bootstrap-utilities.min.css" />
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/mainPage.css" />
-    <link rel="stylesheet" href="../css/webhosting.css" />
-    <style>
-      header .nav .links a::after {
-        position: absolute;
-        content: "";
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 3px;
-        background-color: #ffc600;
-        transition: 0.5s;
-      }
 
-      header .nav .links .drop > a::after,
-      header .nav .links a:nth-child(5)::after {
-        background-color: transparent;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/all.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap-utilities.min.css" />
+  <link rel="stylesheet" href="../css/normalize.css" />
+  <link rel="stylesheet" href="../css/mainPage.css" />
+  <link rel="stylesheet" href="../css/webhosting.css" />
+  <style>
+    header .nav .links a::after {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background-color: #ffc600;
+      transition: 0.5s;
+    }
 
-  <body>
-    <header class="light">
-      <div class="container-lg">
-        <div class="nav">
-          <div class="logo"><img src="../images/logo.svg" alt="" /></div>
-          <div class="links">
-            <a href="../index.html" class="mode-button light color">Home</a>
-            <div class="drop">
-              <a class="color">Hosting Services</a>
-              <div class="drop-menu">
-                <div class="drop-content">
-                  <a href="webhosting.html"
-                    ><img src="../source/Hustbee_files/server1.svg" alt="" />
-                    Web Hosting</a
-                  >
-                  <a href="cloudhosting.html"
-                    ><img
-                      src="../source/Hustbee_files/server2.svg"
-                      alt=""
-                    />Cloud Hosting</a
-                  >
-                  <a href="vpshosting.html"
-                    ><img src="../source/Hustbee_files/server3.svg" alt="" />VPS
-                    Hosting</a
-                  >
-                </div>
-                <div class="drop-content">
-                  <a href="wordpresshosting.html"
-                    ><img
-                      src="../source/Hustbee_files/server4.svg"
-                      alt=""
-                    />Wordpress Hosting</a
-                  >
-                  <a href="dedicatedhosting.html"
-                    ><img
-                      style="background-color: #0f67cd"
-                      src="../source/Hustbee_files/server5.svg"
-                      alt=""
-                    />Dedicated Hosting</a
-                  >
-                  <a href="domains.html"
-                    ><img
-                      src="../source/Hustbee_files/server6.svg"
-                      alt=""
-                    />Domain Names</a
-                  >
-                </div>
-              </div>
-            </div>
-            <a class="color" href="domains.html">Domains</a>
-            <a class="color" href="support.html">Supports</a>
-            <div class="drop">
-              <a class="color">Pages</a>
-              <div class="drop-menu" style="width: 200px">
-                <div class="drop-content">
-                  <a href="about.html">About</a>
-                  <a href="#blog">Blog</a>
-                  <a href="#privacy">Privacy</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="client-area">
-            <div class="client-button">
-              <a href="clientarea.html"
-                ><i class="fa-regular fa-circle-user"></i> Client Area</a
-              >
-              <p class="light">
-                <i
-                  class="fa-solid fa-arrow-right-long"
-                  style="color: rgb(0, 119, 255)"
-                ></i>
-                Chat Available
-              </p>
-            </div>
-            <i class="fa-solid fa-comments" style="color: #d5d5d5"></i>
-          </div>
-        </div>
-      </div>
-      <div class="shape light"><i class="fa-solid fa-bars"></i></div>
-      <div class="nav-menu">
+    header .nav .links .drop>a::after,
+    header .nav .links a:nth-child(5)::after {
+      background-color: transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="light">
+    <div class="container-lg">
+      <div class="nav">
+        <div class="logo"><img src="../images/logo.svg" alt="" /></div>
         <div class="links">
-          <a href="../index.html" class="">Home</a>
+          <a href="../index.html" class="mode-button light color">Home</a>
           <div class="drop">
-            <a class="color" style="opacity: 0.7">Hosting Services</a>
+            <a class="color">Hosting Services</a>
             <div class="drop-menu">
               <div class="drop-content">
-                <a href="webhosting.html"
-                  ><img src="../source/Hustbee_files/server1.svg" alt="" /> Web
-                  Hosting</a
-                >
-                <a href="cloudhosting.html"
-                  ><img src="../source/Hustbee_files/server2.svg" alt="" />Cloud
-                  Hosting</a
-                >
-                <a href="vpshosting.html"
-                  ><img src="../source/Hustbee_files/server3.svg" alt="" />VPS
-                  Hosting</a
-                >
+                <a href="webhosting.html"><img src="../source/Hustbee_files/server1.svg" alt="" />
+                  Web Hosting</a>
+                <a href="cloudhosting.html"><img src="../source/Hustbee_files/server2.svg" alt="" />Cloud Hosting</a>
+                <a href="vpshosting.html"><img src="../source/Hustbee_files/server3.svg" alt="" />VPS
+                  Hosting</a>
               </div>
               <div class="drop-content">
-                <a href="wordpresshosting.html"
-                  ><img
-                    src="../source/Hustbee_files/server4.svg"
-                    alt=""
-                  />Wordpress Hosting</a
-                >
-                <a href="dedicatedhosting.html"
-                  ><img
-                    style="background-color: #0f67cd"
-                    src="../source/Hustbee_files/server5.svg"
-                    alt=""
-                  />Dedicated Hosting</a
-                >
-                <a href="domains.html"
-                  ><img
-                    src="../source/Hustbee_files/server6.svg"
-                    alt=""
-                  />Domain Names</a
-                >
+                <a href="wordpresshosting.html"><img src="../source/Hustbee_files/server4.svg" alt="" />Wordpress
+                  Hosting</a>
+                <a href="dedicatedhosting.html"><img style="background-color: #0f67cd"
+                    src="../source/Hustbee_files/server5.svg" alt="" />Dedicated Hosting</a>
+                <a href="domains.html"><img src="../source/Hustbee_files/server6.svg" alt="" />Domain Names</a>
               </div>
             </div>
           </div>
           <a class="color" href="domains.html">Domains</a>
           <a class="color" href="support.html">Supports</a>
           <div class="drop">
-            <a class="color" style="opacity: 0.7">Pages</a>
-            <div class="drop-menu">
+            <a class="color">Pages</a>
+            <div class="drop-menu" style="width: 200px">
               <div class="drop-content">
                 <a href="about.html">About</a>
                 <a href="#blog">Blog</a>
-                <a href="#privacy" style="margin-bottom: 0">Privacy</a>
+                <a href="privacy.html">Privacy</a>
               </div>
             </div>
           </div>
+        </div>
+        <div class="client-area">
+          <div class="client-button">
+            <a href="clientarea.html"><i class="fa-regular fa-circle-user"></i> Client Area</a>
+            <p class="light">
+              <i class="fa-solid fa-arrow-right-long" style="color: rgb(0, 119, 255)"></i>
+              Chat Available
+            </p>
+          </div>
+          <i class="fa-solid fa-comments" style="color: #d5d5d5"></i>
         </div>
       </div>
-      <div class="main">
-        <div class="top">
-          <div class="image">
-            <img src="../source/Hustbee_files/server5.svg" alt="" />
-          </div>
-          <h2>Dedicated Hosting</h2>
-        </div>
-        <p style="font-size: 20px">
-          Choose from a vriety of affordable, high quality shared hosting
-          service
-        </p>
-        <div
-          class="d-flex justify-content-center align-items-center gap-3 mt-4"
-        >
-          <label
-            class="check active"
-            style="font-size: 13px; color: rgb(135, 142, 155)"
-            for="check"
-            >Monthly Bill</label
-          >
-          <label for="check">
-            <input class="checkbox" type="checkbox" id="check" />
-            <div class="toggle"></div>
-          </label>
-          <label
-            class="check"
-            style="font-size: 13px; color: rgb(135, 142, 155)"
-            for="check"
-            >Annual Bill</label
-          >
-        </div>
-      </div>
-    </header>
-    <div class="plan">
-      <div class="container-lg">
-        <div class="row py-5 px-lg-5">
-          <div class="plan-box-container col-sm-12 col-lg-4">
-            <div class="plan-box text-center mx-2 py-3 px-2">
-              <h2 style="color: rgb(69, 145, 243)">Starter plan</h2>
-              <h2
-                class="price"
-                style="color: rgb(69, 145, 243); font-weight: 100"
-              >
-                $2.75/mo
-              </h2>
-              <button class="col-6">Buy now</button>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i>10GB Storage</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 1 Domain name</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 512Mb Ram</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 5GB Bandwidth</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 10 Emails</p>
-              </div>
+    </div>
+    <div class="shape light"><i class="fa-solid fa-bars"></i></div>
+    <div class="nav-menu">
+      <div class="links">
+        <a href="../index.html" class="">Home</a>
+        <div class="drop">
+          <a class="color" style="opacity: 0.7">Hosting Services</a>
+          <div class="drop-menu">
+            <div class="drop-content">
+              <a href="webhosting.html"><img src="../source/Hustbee_files/server1.svg" alt="" /> Web
+                Hosting</a>
+              <a href="cloudhosting.html"><img src="../source/Hustbee_files/server2.svg" alt="" />Cloud
+                Hosting</a>
+              <a href="vpshosting.html"><img src="../source/Hustbee_files/server3.svg" alt="" />VPS
+                Hosting</a>
+            </div>
+            <div class="drop-content">
+              <a href="wordpresshosting.html"><img src="../source/Hustbee_files/server4.svg" alt="" />Wordpress
+                Hosting</a>
+              <a href="dedicatedhosting.html"><img style="background-color: #0f67cd"
+                  src="../source/Hustbee_files/server5.svg" alt="" />Dedicated Hosting</a>
+              <a href="domains.html"><img src="../source/Hustbee_files/server6.svg" alt="" />Domain Names</a>
             </div>
           </div>
-          <div class="plan-box-container col-sm-12 col-lg-4">
-            <div class="plan-box text-center mx-2 py-3 px-2">
-              <h2 style="color: rgb(69, 145, 243)">Business plan</h2>
-              <h2
-                class="price"
-                style="color: rgb(69, 145, 243); font-weight: 100"
-              >
-                $10.95/mo
-              </h2>
-              <button class="col-6">Buy now</button>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i>10GB Storage</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 1 Domain name</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 512Mb Ram</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 5GB Bandwidth</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 10 Emails</p>
-              </div>
-            </div>
-          </div>
-          <div class="plan-box-container col-sm-12 col-lg-4">
-            <div class="plan-box text-center mx-2 py-3 px-2">
-              <h2 style="color: rgb(69, 145, 243)">VIP plan</h2>
-              <h2
-                class="price"
-                style="color: rgb(69, 145, 243); font-weight: 100"
-              >
-                $38.95/mo
-              </h2>
-              <button class="col-6">Buy now</button>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i>10GB Storage</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 1 Domain name</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 512Mb Ram</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 5GB Bandwidth</p>
-              </div>
-              <div class="p">
-                <p><i class="fa-solid fa-check"></i> 10 Emails</p>
-              </div>
+        </div>
+        <a class="color" href="domains.html">Domains</a>
+        <a class="color" href="support.html">Supports</a>
+        <div class="drop">
+          <a class="color" style="opacity: 0.7">Pages</a>
+          <div class="drop-menu">
+            <div class="drop-content">
+              <a href="about.html">About</a>
+              <a href="#blog">Blog</a>
+              <a href="privacy.html" style="margin-bottom: 0">Privacy</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div
-      class="background"
-      style="
+    <div class="main">
+      <div class="top">
+        <div class="image">
+          <img src="../source/Hustbee_files/server5.svg" alt="" />
+        </div>
+        <h2>Dedicated Hosting</h2>
+      </div>
+      <p style="font-size: 20px">
+        Choose from a vriety of affordable, high quality shared hosting
+        service
+      </p>
+      <div class="d-flex justify-content-center align-items-center gap-3 mt-4">
+        <label class="check active" style="font-size: 13px; color: rgb(135, 142, 155)" for="check">Monthly Bill</label>
+        <label for="check">
+          <input class="checkbox" type="checkbox" id="check" />
+          <div class="toggle"></div>
+        </label>
+        <label class="check" style="font-size: 13px; color: rgb(135, 142, 155)" for="check">Annual Bill</label>
+      </div>
+    </div>
+  </header>
+  <div class="plan">
+    <div class="container-lg">
+      <div class="row py-5 px-lg-5">
+        <div class="plan-box-container col-sm-12 col-lg-4">
+          <div class="plan-box text-center mx-2 py-3 px-2">
+            <h2 style="color: rgb(69, 145, 243)">Starter plan</h2>
+            <h2 class="price" style="color: rgb(69, 145, 243); font-weight: 100">
+              $2.75/mo
+            </h2>
+            <button class="col-6">Buy now</button>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i>10GB Storage</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 1 Domain name</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 512Mb Ram</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 5GB Bandwidth</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 10 Emails</p>
+            </div>
+          </div>
+        </div>
+        <div class="plan-box-container col-sm-12 col-lg-4">
+          <div class="plan-box text-center mx-2 py-3 px-2">
+            <h2 style="color: rgb(69, 145, 243)">Business plan</h2>
+            <h2 class="price" style="color: rgb(69, 145, 243); font-weight: 100">
+              $10.95/mo
+            </h2>
+            <button class="col-6">Buy now</button>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i>10GB Storage</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 1 Domain name</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 512Mb Ram</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 5GB Bandwidth</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 10 Emails</p>
+            </div>
+          </div>
+        </div>
+        <div class="plan-box-container col-sm-12 col-lg-4">
+          <div class="plan-box text-center mx-2 py-3 px-2">
+            <h2 style="color: rgb(69, 145, 243)">VIP plan</h2>
+            <h2 class="price" style="color: rgb(69, 145, 243); font-weight: 100">
+              $38.95/mo
+            </h2>
+            <button class="col-6">Buy now</button>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i>10GB Storage</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 1 Domain name</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 512Mb Ram</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 5GB Bandwidth</p>
+            </div>
+            <div class="p">
+              <p><i class="fa-solid fa-check"></i> 10 Emails</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="background" style="
         background-color: rgb(250, 250, 250);
         padding-bottom: 100px;
         margin-top: -70px;
-      "
-    >
-      <div class="container-lg" style="overflow: hidden">
-        <div class="hosting">
-          <div class="hosting-box" style="margin-top: 70px">
-            <div class="hosting-text">
-              <h1>Hosting For Every Website</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                quas distinctio incidunt voluptates id corporis tempora. Dolorum
-                temporibus sint libero aliascorrupti nihil perspiciatis,
-                accusantium ratione doloremque, nostrum velit aut.
-              </p>
-              <button>Get Started!</button>
-            </div>
-            <div class="image">
-              <img src="../source/Hustbee_files/feature1.png" alt="" />
-            </div>
+      ">
+    <div class="container-lg" style="overflow: hidden">
+      <div class="hosting">
+        <div class="hosting-box" style="margin-top: 70px">
+          <div class="hosting-text">
+            <h1>Hosting For Every Website</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              quas distinctio incidunt voluptates id corporis tempora. Dolorum
+              temporibus sint libero aliascorrupti nihil perspiciatis,
+              accusantium ratione doloremque, nostrum velit aut.
+            </p>
+            <button>Get Started!</button>
           </div>
-          <div class="hosting-box">
-            <div class="hosting-text" style="order: 1">
-              <h1>Grow with us</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                quas distinctio incidunt voluptates id corporis tempora. Dolorum
-                temporibus sint libero aliascorrupti nihil perspiciatis,
-                accusantium ratione doloremque, nostrum velit aut.
-              </p>
-              <button>Get Started!</button>
-            </div>
-            <div class="image">
-              <img src="../images/feature4.png" alt="" />
-            </div>
+          <div class="image">
+            <img src="../source/Hustbee_files/feature1.png" alt="" />
           </div>
-          <div class="hosting-box" style="margin-bottom: 100px">
-            <div class="hosting-text">
-              <h1>In a hurry? let’s start!</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                quas distinctio incidunt voluptates id corporis tempora. Dolorum
-                temporibus sint libero aliascorrupti nihil perspiciatis,
-                accusantium ratione doloremque, nostrum velit aut.
-              </p>
-              <button>Get Started!</button>
-            </div>
-            <div class="image">
-              <img src="../images/feature5.png" alt="" />
-            </div>
+        </div>
+        <div class="hosting-box">
+          <div class="hosting-text" style="order: 1">
+            <h1>Grow with us</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              quas distinctio incidunt voluptates id corporis tempora. Dolorum
+              temporibus sint libero aliascorrupti nihil perspiciatis,
+              accusantium ratione doloremque, nostrum velit aut.
+            </p>
+            <button>Get Started!</button>
           </div>
-          <div class="hosting-box">
-            <div class="hosting-text" style="order: 1">
-              <h1>Grow with us</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                quas distinctio incidunt voluptates id corporis tempora. Dolorum
-                temporibus sint libero aliascorrupti nihil perspiciatis,
-                accusantium ratione doloremque, nostrum velit aut.
-              </p>
-              <button>Get Started!</button>
-            </div>
-            <div class="image">
-              <img src="../images/feature6.png" alt="" />
-            </div>
+          <div class="image">
+            <img src="../images/feature4.png" alt="" />
+          </div>
+        </div>
+        <div class="hosting-box" style="margin-bottom: 100px">
+          <div class="hosting-text">
+            <h1>In a hurry? let’s start!</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              quas distinctio incidunt voluptates id corporis tempora. Dolorum
+              temporibus sint libero aliascorrupti nihil perspiciatis,
+              accusantium ratione doloremque, nostrum velit aut.
+            </p>
+            <button>Get Started!</button>
+          </div>
+          <div class="image">
+            <img src="../images/feature5.png" alt="" />
+          </div>
+        </div>
+        <div class="hosting-box">
+          <div class="hosting-text" style="order: 1">
+            <h1>Grow with us</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              quas distinctio incidunt voluptates id corporis tempora. Dolorum
+              temporibus sint libero aliascorrupti nihil perspiciatis,
+              accusantium ratione doloremque, nostrum velit aut.
+            </p>
+            <button>Get Started!</button>
+          </div>
+          <div class="image">
+            <img src="../images/feature6.png" alt="" />
           </div>
         </div>
       </div>
     </div>
-    <section class="search">
-      <div class="container-lg py-5 px-4">
-        <div class="row">
-          <div class="left col col-lg-6">
-            <h1 style="color: white; margin-bottom: 50px">
-              Get your website up and running today. Search a domain of your
-              choise.
-            </h1>
-            <div class="d-flex gap-3 flex-md-row flex-column">
-              <input
-                class="col-12 col-md-9"
-                type="text"
-                placeholder="Domain name"
-              />
-              <button class="col-12 col-md-3">Search now</button>
-            </div>
+  </div>
+  <section class="search">
+    <div class="container-lg py-5 px-4">
+      <div class="row">
+        <div class="left col col-lg-6">
+          <h1 style="color: white; margin-bottom: 50px">
+            Get your website up and running today. Search a domain of your
+            choise.
+          </h1>
+          <div class="d-flex gap-3 flex-md-row flex-column">
+            <input class="col-12 col-md-9" type="text" placeholder="Domain name" />
+            <button class="col-12 col-md-3">Search now</button>
           </div>
-          <div class="right col-md-6 d-none d-lg-block">
-            <img class="ms-5" width="100%" src="../images/office.png" alt="" />
+        </div>
+        <div class="right col-md-6 d-none d-lg-block">
+          <img class="ms-5" width="100%" src="../images/office.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="support">
+    <div class="container-lg">
+      <div class="support-center">
+        <div class="support-box">
+          <div class="image">
+            <img src="../source/Hustbee_files/info.svg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Let’s talk <i class="fa-solid fa-arrow-right-long"></i></h3>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              ccusantium.
+            </p>
+          </div>
+        </div>
+        <div class="support-box">
+          <div class="image">
+            <img src="../source/Hustbee_files/chat.svg" alt="" />
+          </div>
+          <div class="text">
+            <h3>
+              Go to support center
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </h3>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              ccusantium.
+            </p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="support">
-      <div class="container-lg">
-        <div class="support-center">
-          <div class="support-box">
-            <div class="image">
-              <img src="../source/Hustbee_files/info.svg" alt="" />
-            </div>
-            <div class="text">
-              <h3>Let’s talk <i class="fa-solid fa-arrow-right-long"></i></h3>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                ccusantium.
-              </p>
-            </div>
+    </div>
+  </section>
+  <footer>
+    <div class="scroll-top">
+      <i class="fa-solid fa-chevron-up" style="color: #ffffff"></i>
+    </div>
+    <div class="container-lg">
+      <div class="footer-content">
+        <div class="footer-links">
+          <div>
+            <h2>Company</h2>
+            <a href="about.html">Aboout us</a>
+            <a href="blog.html">Press & Media</a>
+            <a href="blog.html">News & Blog</a>
+            <a href="support.html">Contact us</a>
+            <a href="">Careers</a>
           </div>
-          <div class="support-box">
-            <div class="image">
-              <img src="../source/Hustbee_files/chat.svg" alt="" />
+          <div>
+            <h2>Hosting</h2>
+            <a href="webhosting.html">Web Hosting</a>
+            <a href="wordpresshosting.html">Wordpress Hosting</a>
+            <a href="cloudhosting.html">Cloud Hosting</a>
+            <a href="vpshosting.html">VPS Hosting</a>
+            <a href="dedicatedhosting.html">Dedicated Hosting</a>
+          </div>
+          <div>
+            <h2>Domains</h2>
+            <a href="domains.html">Register Domains</a>
+            <a href="domains.html">Transfer Domains</a>
+            <a href="domains.html">Manage Domains</a>
+          </div>
+          <div>
+            <h2>Support</h2>
+            <a href="clientarea.html">Client area</a>
+            <a href="#">Tutorials</a>
+            <a href="#">Documentation</a>
+            <a href="#">Forums</a>
+          </div>
+        </div>
+        <div class="contact-us">
+          <div>
+            <h2>Contact us</h2>
+            <div class="social" style="display: flex; gap: 35px">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
             </div>
-            <div class="text">
-              <h3>
-                Go to support center
-                <i class="fa-solid fa-arrow-right-long"></i>
-              </h3>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                ccusantium.
-              </p>
-            </div>
+            <p>Tel: +(973) 17 880038</p>
+            <a href="#">Chatting service</a>
+            <a href="#">Submit a ticket</a>
+            <a href="#">Our location</a>
           </div>
         </div>
       </div>
-    </section>
-    <footer>
-      <div class="scroll-top">
-        <i class="fa-solid fa-chevron-up" style="color: #ffffff"></i>
-      </div>
-      <div class="container-lg">
-        <div class="footer-content">
-          <div class="footer-links">
-            <div>
-              <h2>Company</h2>
-              <a href="about.html">Aboout us</a>
-              <a href="#blog">Press & Media</a>
-              <a href="#blog">News & Blog</a>
-              <a href="#contact">Contact us</a>
-              <a href="">Careers</a>
-            </div>
-            <div>
-              <h2>Hosting</h2>
-              <a href="webhosting.html">Web Hosting</a>
-              <a href="#wordpress">Wordpress Hosting</a>
-              <a href="#cloudHosting">Cloud Hosting</a>
-              <a href="#vpsHosting">VPS Hosting</a>
-              <a href="#dedicated">Dedicated Hosting</a>
-            </div>
-            <div>
-              <h2>Domains</h2>
-              <a href="html/domains.html">Register Domains</a>
-              <a href="html/domains.html">Transfer Domains</a>
-              <a href="html/domains.html">Manage Domains</a>
-            </div>
-            <div>
-              <h2>Support</h2>
-              <a href="html/clientarea.html">Client area</a>
-              <a href="#">Tutorials</a>
-              <a href="#">Documentation</a>
-              <a href="#">Forums</a>
-            </div>
-          </div>
-          <div class="contact-us">
-            <div>
-              <h2>Contact us</h2>
-              <div class="social" style="display: flex; gap: 35px">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-              </div>
-              <p>Tel: +(973) 17 880038</p>
-              <a href="#">Chatting service</a>
-              <a href="#">Submit a ticket</a>
-              <a href="#">Our location</a>
-            </div>
-          </div>
+      <div class="copyright" style="
+                  display: flex;
+                  justify-content: space-between;
+                  margin-top: 30px;
+                ">
+        <div class="links">
+          <a href="">Sitemap</a>
+          <a href="">Terms of Service</a>
+          <a href="privacy.html">Privacy Policy</a>
         </div>
-        <div
-          class="copyright"
-          style="
-            display: flex;
-            justify-content: space-between;
-            margin-top: 30px;
-          "
-        >
-          <div class="links">
-            <a href="">Sitemap</a>
-            <a href="">Terms of Service</a>
-            <a href="#privacy">Privacy Policy</a>
-          </div>
-          <p>© Copyright 2018 Hustbee Hosting LLC, All Rights Reserved</p>
-        </div>
+        <p>© Copyright 2018 Hustbee Hosting LLC, All Rights Reserved</p>
       </div>
-    </footer>
-    <script src="../js/header.js"></script>
-    <script src="../js/webhosting.js"></script>
-    <script src="../js/footer.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="../js/header.js"></script>
+  <script src="../js/webhosting.js"></script>
+  <script src="../js/footer.js"></script>
+</body>
+
 </html>

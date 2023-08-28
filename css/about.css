@@ -29,7 +29,7 @@ header {
   text-decoration: none;
   border: 1px solid #4671b3;
   border-radius: 15px;
-  transition: 1s;
+  transition: all 1s ease-out;
 }
 
 .services__ a:hover {

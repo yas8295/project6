@@ -24,7 +24,7 @@ function moveRotatex(section) {
     scrollY >=
     section.offsetTop - document.documentElement.clientHeight + 90
   ) {
-    section.style.transform = "rotatex(1080deg)";
+    section.style.transform = "rotatex(720deg)";
     section.style.opacity = "1";
   } else if (
     scrollY <=
@@ -41,7 +41,7 @@ function moveRightRotate(section) {
     section.offsetTop - document.documentElement.clientHeight + 90
   ) {
     section.style.translate = "0px";
-    section.style.rotate = "1080deg";
+    section.style.rotate = "720deg";
     section.style.opacity = "1";
   } else if (
     scrollY <=
@@ -59,7 +59,7 @@ function moveLeftRotate(section) {
     section.offsetTop - document.documentElement.clientHeight + 90
   ) {
     section.style.translate = "0px";
-    section.style.rotate = "-1080deg";
+    section.style.rotate = "-720deg";
     section.style.opacity = "1";
   } else if (
     scrollY <=
