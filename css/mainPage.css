@@ -175,7 +175,7 @@ header .nav .client-area i:nth-child(2):hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 115px);
-  height: 820px;
+  height: fit-content;
 }
 
 .header-content:nth-of-type(1) {
